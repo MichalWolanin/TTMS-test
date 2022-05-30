@@ -6,9 +6,8 @@ import {StudentComponent} from "./components/student/student.component";
 
 const routes: Routes = [
   { path: '', component: AppComponent, children: [
-      { path: 'students', component: StudentsComponent, children: [
-          { path: 'student', component: StudentComponent}
-        ]},
+      { path: 'students', component: StudentsComponent },
+      { path: 'students/:student', component: StudentComponent}
     ]}
 ]
 
