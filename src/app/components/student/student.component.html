@@ -1,9 +1,9 @@
 <div class="app-student">
   <div class="app-student__container">
-    <div class="app-student__data">
-      <button [routerLink]="[name]" mat-raised-button>Podgląd</button>
+    <mat-list class="app-student__data">
       <div class="app-student__personal-data">{{ student?.name }}</div>
-      <div class="app-student__personal-data">{{ student?.result }}</div>
-    </div>
+      <button class="app-student__button" [routerLink]="[name]" mat-stroked-button>Preview</button>
+    </mat-list>
+    <mat-divider></mat-divider>
   </div>
 </div>

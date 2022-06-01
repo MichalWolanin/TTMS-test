@@ -5,7 +5,7 @@ import {Student} from "../../models/student.enum";
 @Component({
   selector: 'app-students',
   templateUrl: './students.component.html',
-  styleUrls: ['./students.component.css']
+  styleUrls: ['./students.component.scss']
 })
 export class StudentsComponent {
   students: StudentView[] = [
