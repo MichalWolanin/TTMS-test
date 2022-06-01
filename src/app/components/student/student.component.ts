@@ -7,6 +7,7 @@ import {StudentView} from "../../models/student.interface";
   styleUrls: ['./student.component.css']
 })
 export class StudentComponent {
+  name?: string;
 
   @Input() student?: StudentView
 }
