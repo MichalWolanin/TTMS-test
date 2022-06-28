@@ -7,11 +7,8 @@ import {StudentView} from "../../models/student.interface";
   styleUrls: ['./student.component.scss']
 })
 export class StudentComponent {
-  name?: string;
+  id?: string;
 
   @Input() student?: StudentView
-
-  ngOnInit(): void {
-    this.name = this.student?.name.split('../students/')[1];
-  }
+  
 }

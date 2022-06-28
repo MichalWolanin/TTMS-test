@@ -7,7 +7,7 @@ import {StudentDetailsComponent} from "./pages/student-details/student-details.c
 const routes: Routes = [
   { path: '', component: AppComponent, children: [
       { path: 'students', component: StudentsComponent },
-      { path: 'students/:name', component: StudentDetailsComponent}
+      { path: 'students/:id', component: StudentDetailsComponent}
     ]}
 ]
 
